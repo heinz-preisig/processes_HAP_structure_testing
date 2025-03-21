@@ -45,7 +45,7 @@ from Common.ontology_container import OntologyContainer
 
 from owlready2 import *
 
-ontology = OntologyContainer("processes_HAP") #'flash_03')
+ontology = OntologyContainer("processes_HAP_structure_testing") #'flash_03')
 
 
 variables = ontology.variables
@@ -3244,6 +3244,15 @@ F_ID = "F_E_121"
 F_E_121 = onto.function( F_ID )
 F_E_121.is_function_of = incidence_list
 V_V_113.has_function.append( F_E_121 )
+incidence_list = []
+incidence_list.append( V_115 )
+incidence_list.append( V_137 )
+incidence_list.append( V_141 )
+incidence_list.append( V_113 )
+F_ID = "F_E_144"
+F_E_144 = onto.function( F_ID )
+F_E_144.is_function_of = incidence_list
+V_V_113.has_function.append( F_E_144 )
 #V_114
 
 V_V_114.has_function = []
@@ -3284,6 +3293,14 @@ F_ID = "F_E_112"
 F_E_112 = onto.function( F_ID )
 F_E_112.is_function_of = incidence_list
 V_V_115.has_function.append( F_E_112 )
+incidence_list = []
+incidence_list.append( V_137 )
+incidence_list.append( V_141 )
+incidence_list.append( V_113 )
+F_ID = "F_E_143"
+F_E_143 = onto.function( F_ID )
+F_E_143.is_function_of = incidence_list
+V_V_115.has_function.append( F_E_143 )
 #V_116
 
 V_V_116.has_function = []

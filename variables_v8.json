@@ -777,6 +777,27 @@
             "global_ID": "V_113",
             "latex": "{T}{_{N}}"
           }
+        },
+        "E_144": {
+          "rhs": {
+            "global_ID": " F_17 D_0 V_115 O_1 D_0 V_137  O_5 I_1 V_141 O_4 V_113 D_1 D_1",
+            "latex": "\\textbf{Root}\\left( {H}{_{N}}  - \\left({m}{_{N}} \\stackrel{N}{\\star} {{c_p}}{_{N}} \\, . \\, {T}{_{N}}\\right)\\right)"
+          },
+          "type": "generic",
+          "doc": "temperature from constant heat capacity",
+          "network": "macroscopic",
+          "incidence_list": [
+            "V_113",
+            "V_115",
+            "V_137",
+            "V_141"
+          ],
+          "created": "2024-09-19 14:53:33",
+          "modified": "2024-09-19 14:53:33",
+          "lhs": {
+            "global_ID": "V_113",
+            "latex": "{T}{_{N}}"
+          }
         }
       },
       "imported": false,
@@ -932,6 +953,26 @@
           ],
           "created": "2024-04-04 15:55:31",
           "modified": "2024-04-04 15:55:31",
+          "lhs": {
+            "global_ID": "V_115",
+            "latex": "{H}{_{N}}"
+          }
+        },
+        "E_143": {
+          "rhs": {
+            "global_ID": " V_137  O_5 I_1 V_141 O_4 V_113",
+            "latex": "{m}{_{N}} \\stackrel{N}{\\star} {{c_p}}{_{N}} \\, . \\, {T}{_{N}}"
+          },
+          "type": "generic",
+          "doc": "Enthalpy from constant heat capacity",
+          "network": "macroscopic",
+          "incidence_list": [
+            "V_113",
+            "V_137",
+            "V_141"
+          ],
+          "created": "2024-09-19 14:44:38",
+          "modified": "2024-09-19 14:44:38",
           "lhs": {
             "global_ID": "V_115",
             "latex": "{H}{_{N}}"
@@ -7753,6 +7794,6 @@
   },
   "Ontology_global_IDs": {
     "variable": 243,
-    "equation": 142
+    "equation": 144
   }
 }

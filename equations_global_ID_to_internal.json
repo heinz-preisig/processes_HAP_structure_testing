@@ -194,6 +194,16 @@
     "network": "macroscopic",
     "rhs": " y_p_positive . inv ( rhoA ) . kcA_x . Ayz . F * N p"
   },
+  "E_143": {
+    "lhs": "H",
+    "network": "macroscopic",
+    "rhs": " m * N cp . T"
+  },
+  "E_144": {
+    "lhs": "T",
+    "network": "macroscopic",
+    "rhs": " Root ( H - ( m * N cp . T ) )"
+  },
   "E_15": {
     "lhs": "v_y",
     "network": "macroscopic",
